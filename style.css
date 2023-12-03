@@ -1,0 +1,126 @@
+.mainText{
+    align-items: center;    
+    flex-direction: column;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    background: url("./assets/Desktop_Backgrounds_1920x1200_6 3.png")  center/cover no-repeat;
+    height: 800px;
+}
+.mainText h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 1);
+}
+.mainText h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+.sec{
+    align-items: center;    
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(238, 238, 238, 1);
+    padding:87px 97px 134px 97px;
+}
+.sec p{
+    font-size: 16px;
+}
+.sec h3{
+    font-size: 24px;
+    color: rgba(102, 102, 102, 1);
+}
+.sec h2{
+    font-size: 48px;
+    color: rgba(70, 69, 71, 1);
+}
+.sec button{
+    margin-top: 21px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(85, 194, 216, 1);
+    border:none;
+    Width: 115px;
+    Height:36px;
+    border-radius: 18px;
+}
+
+.learnMore{
+    align-items: center;    
+    flex-direction: column;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background: url("./assets/img54.png") center/cover no-repeat;
+    height: 666px;
+    color: white;
+}
+.learnMore h2{
+    font-family: Oswald;
+    font-size: 48px;
+}
+.learnMore h3{
+    font-family: Source Sans Pro;
+    font-size: 24px;
+}
+.learnMore button{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    background-color: rgba(57, 194, 215, 1);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 80px;
+}
+
+.footer{
+    color: rgba(255, 255, 255, 0.40);
+    align-items: start; 
+    display:flex;
+    
+    flex-direction: column;
+    text-align: left;
+    background: #464547;
+    padding: 21px 0px 38px 140px;
+}
+.footer p{
+    margin: 4px 0 0 0;
+}
+.p img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.p{
+    text-transform: uppercase;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    color: white;
+}
+.p a{
+    text-transform:none;
+    font-size: 16px;
+    display: block;
+    color: rgba(255, 255, 255, 0.40);
+    text-decoration: none
+}
+.p i{
+    text-transform:capitalize;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+}
